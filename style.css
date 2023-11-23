@@ -182,7 +182,7 @@
 .ex-12-top-white{
     animation-name: twelve-top;
     animation-duration: 1s;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 @keyframes twelve-top {
@@ -220,7 +220,7 @@
 
 .ex-13-top-white{
     animation-name: thirteen-top;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
@@ -229,7 +229,7 @@
         top:-10px;
         left: -10px;
     }
-    25%{
+    30%{
         top:-10px;
         left: 90%;
     }
@@ -237,7 +237,7 @@
         top:85%;
         left:90%;
     }
-    75%{
+    80%{
         top:85%;
         left:-18px;
     }
@@ -251,7 +251,7 @@
 
 .ex-13-bottom-white{
     animation-name: thirteen-bottom;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
@@ -260,7 +260,7 @@
         bottom:-10px;
         right: -10px;
     }
-    25%{
+    35%{
         bottom:-10px;
         right: 80%;
         
@@ -269,7 +269,7 @@
         bottom:85%;
         right:80%;
     }
-    75%{
+    80%{
         bottom:85%;
         right:-18px;
     }
